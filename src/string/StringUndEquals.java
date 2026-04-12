@@ -29,6 +29,12 @@ public class StringUndEquals {
 		} else {
 			System.out.println("Falscher Benutzername!");
 		}
+
+		int a = 1;
+		int b = 2;
+
+		System.out.println("a hat den gleichen Wert wie b: " + (a == b));
+
 	}
 
 }
